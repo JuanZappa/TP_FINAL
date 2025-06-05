@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "nombre": "Laptop Gamer",
+      "descripcion": "Laptop para gamers Asus 64 GB de RAM",
+      "imagen": "/laptop.jpg",
+      "precioReal": 1500,
+      "precioFinal": 1200,
+      "cantidadDisponible": 5
+    },
+    {
+      "id": 2,
+      "nombre": "Mouse Inalámbrico",
+      "descripcion": "Mouse inalámbrico con conexión bluetooth y pilas recargables",
+      "imagen": "/mouse.jpg",
+      "precioReal": 50,
+      "precioFinal": 40,
+      "cantidadDisponible": 10
+    },{
+      "id": 3,
+      "nombre": "Tablet",
+      "descripcion": "Tablet SAMUNG A9 de 9 pulgadas de pantalla y 4 GB de RAM",
+      "imagen": "/tablet.jpg",
+      "precioReal": 500,
+      "precioFinal": 450,
+      "cantidadDisponible": 15
+    },{
+      "id": 4,
+      "nombre": "Teclado",
+      "descripcion": "Teclado gamer, con retoriluminación",
+      "imagen": "/teclado.jpg",
+      "precioReal": 350,
+      "precioFinal": 325,
+      "cantidadDisponible": 20
+    }
+  ]
+  

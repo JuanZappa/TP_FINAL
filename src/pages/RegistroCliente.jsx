@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import '../styles/RegistroCliente.css';
 
-//const AltaProducto = () => {
 const RegistroCliente = () => {
     const [form_values_state, setFormValuesState] = useState()
     const [error, setError] = useState('');
@@ -69,4 +68,4 @@ const RegistroCliente = () => {
     );
 }
 
-export default Register
+export default RegistroCliente

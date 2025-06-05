@@ -56,7 +56,7 @@ function Login() {
       </div>
       <button type="submit">Ingresar</button>
       <div className="register-link">
-        <a href="/register">¿No tienes una cuenta? Regístrate</a>
+        <a href="/registroCliente">¿No tienes una cuenta? Regístrate</a>
       </div>
       {error && <p className="error">{error}</p>}
     </form>

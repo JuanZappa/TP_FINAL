@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import '../styles/Register.css';
+import '../styles/RegistroCliente.css';
 
 //const AltaProducto = () => {
-const Register = () => {
+const RegistroCliente = () => {
     const [form_values_state, setFormValuesState] = useState()
     const [error, setError] = useState('');
 

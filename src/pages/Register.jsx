@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 import '../styles/Register.css';
 
-function Register() {
+//const AltaProducto = () => {
+const Register = () => {
     const [form_values_state, setFormValuesState] = useState()
     const [error, setError] = useState('');
 

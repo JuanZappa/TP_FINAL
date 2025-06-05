@@ -4,18 +4,18 @@ import { createContext, useContext, useState } from 'react';
 const AuthContext = createContext(null);
 
 export function AuthProvider({ children }) {
-  const [isAuthenticated, setAuthenticated] = useState(false);
+  const [isAuthenticated, setAuthenticated] = useState(true);
 
   const login = (usuario, contraseña) => {
     if (usuario === 'Juan' && contraseña === '1234') {
       setAuthenticated(true);
       return true;
     }
-    return false;
+    return true;
   };
 
   const logout = () => {
-    setAuthenticated(false);
+    setAuthenticated(true);
   };
 
   return (
